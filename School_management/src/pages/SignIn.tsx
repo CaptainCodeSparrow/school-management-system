@@ -1,6 +1,6 @@
 import React from 'react'
 
-function App() {
+function SignIn() {
   return (
     <div className='bg-gray-800 w-full h-screen flex  justify-center items-center '>
       <div className="bg-gray-500 text-white p-6 rounded-lg shadow w-80 h-80 justify-center" >
@@ -16,4 +16,4 @@ function App() {
   )
 }
 
-export default App
+export default SignIn
