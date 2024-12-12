@@ -2,15 +2,27 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import SignIn from "./pages/SignIn";
+import ClassDetails from "./pages/ClassDetails";
+import ClassScheduler from "./pages/ClassScheduler";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <Homepage />,
   },
   {
-    path: "/error",
-    element: <div>Hello error!</div>,
+    path: "/singin",
+    element: <SignIn />,
+  },
+  {
+    path: "/class/details",
+    element: <ClassDetails />,
+  },
+  {
+    path: "/class/scheduler",
+    element: <ClassScheduler />,
   },
 ]);
 
